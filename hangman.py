@@ -9,6 +9,7 @@ def get_valid_word(words):
 
     return word.upper()
 
+# this is my hangman game 
 def hangman():
     word = get_valid_word(words)
     word_letters = set(word)  # letters in the word
