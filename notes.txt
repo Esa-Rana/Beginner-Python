@@ -1,0 +1,33 @@
+BASIC COMMANDS:
+Linux
+
+pwd             # this will locate your current location 
+ls              # this can be used to list items 
+cd              # this is used to change your current directory 
+cd ..           # this is command is used to reverse changes by taking you back
+mkdir           # this is used to make a directory
+touch           # this is used to create a file 
+
+cat             # this is used to view a file content and combining files 
+cp              # this is to copy files and directories 
+rm              # this is used to remove files and directories 
+sudo            # this is a permission command that elevates privileges 
+ps              # this is the process status command which lists all of the proccessors running 
+
+
+
+PACKAGES:
+
+$sudo list --installed  # this shows what your system ihas installed 
+
+$sudo apt list          # this will list all of the available packages on the system
+
+$sudo aapt install pidgin   # this is used to install packages 
+
+$sudo apt show nmap     # this searches for a specific package from the list which shows you all the details about that package 
+
+$sudo apt remove pidgin   # this removes the application however it doesnt remove the user data 
+
+$sudo apt purge pigin     # this command removes everything  
+
+ 
