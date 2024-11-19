@@ -30,4 +30,26 @@ $sudo apt remove pidgin   # this removes the application however it doesnt remov
 
 $sudo apt purge pigin     # this command removes everything  
 
+
+
+GIT:
+
+ ORDER FOR GIT -
+
+ 1) git pull (Get the latest changes from the remote repository)   - This will pull (fetch and merge) the changes from the main branch on the remote named origin into your current branch. (eg. git pull)
+
+
+ 2) git checkout (Switch branches)   - The git checkout command is used to switch between different branches or to check out a specific commit.  (eg. git checkout -b <new_branch_name>) 
+
+
+ 3) git status (Check status)    - The git status command shows the state of your working directory and the staging area. (eg. git status) 
+
  
+ 4) git add  (Stage the changes)  -  The git add command stages your changes, telling Git which files you want to include in your next commit. (eg. git add . OR git add <file-name>)
+
+
+ 5) git commit (Commit your changes)  -  Once your changes are staged, the next step is to commit them. This creates a snapshot of your changes, along with a commit message describing what was changed. (eg. git commit -m)
+
+
+ 6) git push (Push your changes to the remote repository)  -  git push sends your commits to the remote repository. This updates the branch on the remote server with your latest changes. (eg. git push)
+
